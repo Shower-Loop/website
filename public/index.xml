@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on </title>
+    <link>https://shower-loop.github.io/</link>
+    <description>Recent content in Home on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shower-loop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2 Ways to Be Economical When Showering With an Injury</title>
+      <link>https://shower-loop.github.io/posts/blog4/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shower-loop.github.io/posts/blog4/</guid>
+      <description>It’s extremely challenging to lead your daily life while sustaining an injury. And yet, dealing with sports injuries is something that most of us will have to go through, with nearly 2 million sports-related injuries affecting high school athletes alone per year. Most of us know the feeling of attempting to take a shower or bath when your arm is wrapped in a cast and cannot get wet. It’s a defeated feeling, and it can quickly take away the motivation to shower or bathe in the first place.</description>
+    </item>
+    
+    <item>
+      <title>Don’t Put These Things Down The Shower Drain!</title>
+      <link>https://shower-loop.github.io/posts/blog3/</link>
+      <pubDate>Tue, 27 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shower-loop.github.io/posts/blog3/</guid>
+      <description>Natural water in Finland is some of the most polluted water in Europe (read the discussions in the article). You might be contributing to its pollution without realizing it, such as if you’re putting things down the drain that you really shouldn’t. Making your shower eco-friendly should be about saving water as well as preventing water contamination. Here’s what you can do to be greener and cleaner!
+In Finland, people use an average of 140 liters of water every day.</description>
+    </item>
+    
+    <item>
+      <title>Showerloop at the Design museum</title>
+      <link>https://shower-loop.github.io/posts/blog2/</link>
+      <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shower-loop.github.io/posts/blog2/</guid>
+      <description>Low poly showerstall for the Design Museum. Enter &amp;amp; Encounter Exhibit At the start of the year, we were asked to bring a demo of Showerloop to an art/design/futurism exhibit. We also designed a wooden shower stall to accompany the showerloop system. The shower stall was made with blender, Explision, Meshlab, a lasercutter, circle saw, router, dremel, drill, clamps, hammer, crowbar, screwdriver, nuts, sticks, planks and bits, interior wax and lights.</description>
+    </item>
+    
+    <item>
+      <title>The electronics board PCBBasic2.0</title>
+      <link>https://shower-loop.github.io/posts/blog1/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shower-loop.github.io/posts/blog1/</guid>
+      <description>For the last couple of months we have gotten back to circuit boards and looking at completing the project we started a long time ago. Making the shower smart and easily controllable like one would expect from modern consumer products. There&amp;rsquo;s been a lot to learn considering all we could do a few years ago was wire up a light bulb, and even then we would need to check what the difference was with the brown wire (live/positive) and the blue wire (ground/neutral).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://shower-loop.github.io/licenses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shower-loop.github.io/licenses/</guid>
+      <description>The key to open source hardware and software is an open heart CERN OHL BY-SA: CERN Open Hardware License If you with to republish, credit modify and/or commercialize Showerloop or aspects of Showerloop tech under the licence agreement you must, in a nutshell:
+ By: Give credit to Showerloop by linking to our website, refering to the documentation and it&amp;rsquo;s makers  Share AlikeShare your documentation in a similar fashion, a.</description>
+    </item>
+    
+    <item>
+      <title>Components</title>
+      <link>https://shower-loop.github.io/components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shower-loop.github.io/components/</guid>
+      <description>Showerloop Kit Component List 2018   Production Made in Finland - for the most part. We&amp;rsquo;ve been doing our best to source materials as locally as possible. Sadly it&amp;rsquo;s harder and harder to producers here in Finland or if we can it&amp;rsquo;s just too expensive for us until we can produce more component inhouse.
+The main components of the filter and electronics are, however, made here in Finland with the help of tools and expertise from Aalto Fablab in Helsinki, Varia vocational school &amp;amp; AIRO Island Ry.</description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>https://shower-loop.github.io/contact-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shower-loop.github.io/contact-us/</guid>
+      <description>Incase you want to support the project we have an effective gofundme campaign.
+ Basically we have little raw materials so we recycle a lot of materials, we also have the space and access to tools (yay, Fablab!) that allow us to continue our work.
+We are also starting to collaborate with people around the world to bring Showerloop to where they need it, be it a boat, an RV, a house in the woods, a far off Pacific Island, a brand new hay-bale house or a really old building without plumbing.</description>
+    </item>
+    
+    <item>
+      <title>How It Works</title>
+      <link>https://shower-loop.github.io/how-it-works/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shower-loop.github.io/how-it-works/</guid>
+      <description>Screen filter (like in a kitchen sink) To remove hair and large objects and to protect the pump. A gravity filter can also be utilised here   Micro-fiber/geo-textile To keep in the filtrate materials but also works like the mesh filter   Sand To filter out particles   Activated carbon To clarify the water, remove colour, smell and chemicals   Ultraviolet light To sterilise the water from potentially harmful bacteria   COLLECT, CLEAN, STERILISE, REUSE = LOOP   After passing through the filters the water is clear, clean and bacteria free and ready to be pumped back into the shower head.</description>
+    </item>
+    
+    <item>
+      <title>Make It</title>
+      <link>https://shower-loop.github.io/make-it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shower-loop.github.io/make-it/</guid>
+      <description>Here is the Manual  It’s not ready, but I’m already 227 days overdue. Tragic. I’m really sorry to everyone that I said I’d have it done on the weekend. The inspiration just never came. I didn’t want to dissapoint you, I just dissapointed myself. Anyway. Today is my birthday (16.5.2019) and I turn 33. OMG where is the time going. I think the first Idea for the Showerloop was in the 90’s but I’d say it started in 2012 when we started scavanging parts to start building it.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://shower-loop.github.io/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shower-loop.github.io/research/</guid>
+      <description>Ongoing research:   Can we identify a particular type of activated carbon and soap/shampoo combination that is the most effective at removing particulates ***Almost complete***.   What is the typical heat loss in a normal shower from shower head to the drain aka how much heating is needed ***Almost complete***.   Quality control of source components.   Life Cycle Assessment and scoping the needed certifications for products.</description>
+    </item>
+    
+  </channel>
+</rss>
