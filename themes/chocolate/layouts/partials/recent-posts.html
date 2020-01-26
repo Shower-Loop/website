@@ -1,0 +1,32 @@
+{{ $tag := slice "post" }}
+<div class="recent-posts">
+    <div class="chocolate-container">
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--12-col">
+                <h2 class="mdl-typography--display-2 section-title">
+                    Recent News
+                </h2>
+                <p class="blog-description">
+                    Croissant lollipop gummies jelly beans jelly pastry cupcake. Wafer ice cream gummies tootsie roll dessert tootsie roll cotton candy pastry. Sweet tootsie roll chocolate cake wafer pie sugar plum chocolate bar.
+                </p>
+                <div class="mdl-grid">
+                    {{ range first 2 (where (where .Site.Pages "Section" "posts") ".Params.tags" "intersect" $tag) }}
+                    <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone blog-post mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title">
+                            <h3 class="mdl-card__title-text">{{.Title}}</h3>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <p>{{.Summary}}</p>
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-button mdl-js-button mdl-button--raised mdl-button--colored" tabindex="0" aria-label="Read more about {{.Title}}">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+{{- partial "head.html" . -}}
+<body class="{{ .Type }}">
+{{- partial "header.html" . -}}
+{{- partial "hero-h.html" . -}}
+{{- partial "cta-small.html" . -}}
+<main>
+    <div class="homepage-content">
+        {{.Content}}
+    </div>
+    {{- partial "recent-posts.html" . -}}
+</main>
+{{- partial "footer.html" . -}}
+</div>
+</body>
+</html>

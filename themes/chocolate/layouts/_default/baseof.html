@@ -1,0 +1,12 @@
+{{- partial "head.html" . -}}
+<body class="{{ .Type }}">
+{{- partial "header.html" . -}}
+<main aria-role="main">
+    <div class="subpage-content">
+        {{- block "main" . }}{{- end }}
+    </div>
+</main>
+{{- partial "footer.html" . -}}
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
++++
+author="Jackie Young"
+title="2 Ways to Be Economical When Showering With an Injury"
+date="2018-04-17"
+blog_image="/images/Picture+of+a+pair+of+legs+with+red+toenails,+a+showerhead+submerged+in+water+and+an+overflow+drain+-+all+centered+in+the+image.jfif"
+tags=['post']
++++
+<img class="responsive-img" src="/images/Picture+of+a+pair+of+legs+with+red+toenails,+a+showerhead+submerged+in+water+and+an+overflow+drain+-+all+centered+in+the+image.jfif">
+<p>It’s extremely challenging to lead your daily life while sustaining an injury. And yet, dealing with sports injuries is something that most of us will have to go through, with nearly 2 million sports-related injuries affecting high school athletes alone per year. Most of us know the feeling of attempting to take a shower or bath when your arm is wrapped in a cast and cannot get wet. It’s a defeated feeling, and it can quickly take away the motivation to shower or bathe in the first place. After all, wouldn’t it be easier to not deal with the challenge? Furthermore, you may also be concerned that showering with your sports-related injury will be a longer process than a normal shower, making the entire ordeal less environmentally friendly. While there are ways to make sure you are being economical while showering, like being conscientious of what you put down the drain, you may not always be thinking about the environment when trying to avoid getting your injury wet in the shower. Fortunately, there are two ways you can be economical about your water usage while showering with an injury, including:</p>
+<h2>Using Water Intermittently</h2>
+<p>One of the first shower routines you should try if you have an injury is using water intermittently. This method will actually help you avoid getting your cast or sling wet, as well, as you will be more in control of how much water you’ll use to bathe. Start by getting as much of your body and hair wet as you can—without getting your injury wet. Then, turn the water off completely.</p>
+<p>While the water is off, you can shampoo your hair as usual. Rinse off the shampoo by turning the water on, and when you’re finished rinsing, turn the shower off again. If you use conditioner, you can then condition your hair as usual. If you do not, you can spend time scrubbing with soap. After this, turn the water on again and finish rinsing off. With this method, the idea is to never have the water on when you are not directly using it. You will inevitably save water this way while simultaneously controlling the amount of water that gets near your injury.</p>
+<blockquote>
+  <p>This is a good way to use Shampoo in the Showerloop as well. Disabling Loop mode, and letting the water go down the drain reduces the load on the activated carbon filter and thus improves it’s lifetime.</p>
+  <footer>- Jason from Showerloop</footer>
+</blockquote>
+<h2>Using A Bucket</h2>
+<p>If you have a large-scale cast or slang and cannot risk getting into the shower completely, you may want to try using a bucket to bathe. This is another economical way to shower that will give you total control over the amount of water that will touch your body. All you will need is a plastic or metal bucket and a pitcher of some kind. Fill the bucket up with water. This will be all of the water that you will use for your entire “shower,” which you’ll notice is a significantly lesser amount compared to a normal shower or bath (Showerloop only requires one bucket of water per shower of any duration). Use the pitcher to pour water over your body or whichever area you wish to wash. Again, you will have control over exactly where the water goes, which is extremely helpful if you want to avoid getting your injury wet.</p>
+<p>By trying one of these two showering methods, you can manage to properly bathe without running the risk of getting your injury wet—and while still being environmentally-friendly.</p>
+<img class="responsive-img" src="/images/shower-loop1.png">

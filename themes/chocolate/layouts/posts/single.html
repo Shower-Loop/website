@@ -1,0 +1,50 @@
+{{ define "main" }}
+<div class="chocolate-container">
+    <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <div class="chocolate-blog-single">
+                <div>
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone left">
+                            <img class="responsive-img"
+                                 src="{{.Params.blog_image}}"
+                                 alt="An awesome picture">
+                        </div>
+                        <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone right">
+                            <h1>{{ if .Draft }}DRAFT: {{end}}{{ .Title | markdownify }}</h1>
+                            <span class="post-info">
+                                <span>{{.Params.author}}</span>
+                                <i class="fas fa-circle"></i>
+                                <span class="d-none d-sm-block col-sm-2 mt-auto offset-sm-2 text-right">
+                                    <time class="post-date" datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+                                </span>
+                            </span>
+                            <div>{{.Content}}</div>
+                            {{ if isset .Params "tags" -}}
+                            <span>Tags:</span>
+                            <span class=nowrap>
+                                {{ range $index, $name := sort .Params.tags -}}
+                                <em><span class="ph1">{{$name | markdownify}}</span></em>
+                                {{- end}}
+                            </span>
+                            {{- end }}
+                            <span class="share">
+                                <span>Share:</span>
+                                <a target="_blank" href="{{ .Site.Params.facebookShareUrl }}{{ .Permalink }}">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                                <a target="_blank" href="{{ .Site.Params.twitterShareUrl }}{{ .Permalink }}">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+                                <a target="_blank" href="{{ .Site.Params.redditShareUrl }}{{ .Permalink }}">
+                                    <i class="fab fa-reddit-square"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

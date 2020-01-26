@@ -1,0 +1,30 @@
+a { color: #EB2078; }
+.flow-text { width: 100%; font-size: 30px; text-align: center; display: block; line-height: 40px; margin: 40px 0;}
+.mdl-button--raised.mdl-button--colored { background: #00D0FF; color: #000000 !important; }
+.cta { background: #333333; color: #ffffff; }
+.home-introduction .reasons .mdl-cell div:nth-child(1) { color: #EB2078; }
+.home-works { background: #333333; color: #ffffff; }
+.chocolate-footer { background: #333333; color: #ffffff; }
+.contact-form .mdl-textfield { width: 100%; }
+.contact-form .mdl-textfield__label { color: #000000; }
+.contact-form .mdl-textfield--floating-label.is-focused .mdl-textfield__label,
+.contact-form .mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
+.contact-form .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label { color: #EB2078;}
+.contact-form .mdl-textfield__label:after { background-color: #EB2078; }
+
+.skip-to-content { background: #EB2078; height: 50px; line-height: 50px; font-size: 20px; }
+
+
+@media only screen and (max-width: 1200px)
+{
+    .chocolate-hero-section { padding-top: 50px; }
+    .chocolate-hero-section .hero-text-info { padding-top: 0px; }
+    .chocolate-hero-section h1 { margin: 0px; margin-bottom: 10px; }
+    .chocolate-hero-section h2 { margin: 0px; margin-bottom: 10px; font-size: 30px; }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .chocolate-hero-section .hero-text-info { padding-right: 25px; margin-right: 0px;}
+    .chocolate-hero-section h2 { font-size: 26px; line-height: 27px; }
+}

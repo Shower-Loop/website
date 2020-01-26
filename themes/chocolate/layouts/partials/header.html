@@ -1,0 +1,32 @@
+<div class="skip-to-content" role="button" tabindex="0">
+    Skip to Content
+</div>
+<div class="mdl-layout mdl-js-layout
+        mdl-layout--fixed-header">
+    <header class="mdl-layout__header chocolate-header">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <a href="/" class="mdl-layout-title">
+                <img class="logo" src="/images/logo2.png">
+            </a>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation. We hide it in small screens. -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                <a class="mdl-navigation__link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+                {{ end }}
+                <a class="mdl-navigation__link mdl-button mdl-js-button mdl-button--raised mdl-button--colored support-btn" tabindex="0">Support Us</a>
+            </nav>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title"><strong>Chocolate</strong></span>
+        <nav class="mdl-navigation">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            <a class="mdl-navigation__link" href="{{ .URL }}" title="{{ .Title }}" tabindex="0">{{ .Name }}</a>
+            {{ end }}
+        </nav>
+    </div>

@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="chocolate-container">
+    <h1 class="text-center">
+        All Posts
+    </h1>
+    <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--9-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <div class="chocolate-blog-listing">
+                {{ range .Pages }}
+                <article>
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+                                <img class="responsive-img" src="{{.Params.blog_image}}" alt="An awesome picture">
+                        </div>
+                        <div class="mdl-cell mdl-cell--9-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+                            <header>
+                                <a class="text-body" href="{{ .URL | relURL }}">
+                                    <h1>{{ if .Draft }}DRAFT: {{end}}{{ .Title | markdownify }}</h1>
+                                </a>
+                            </header>
+                            <p>{{.Summary}}</p>
+                            <footer>
+                                <span>{{.Params.author}}</span>
+                                <i class="fas fa-circle"></i>
+                                <span class="d-none d-sm-block col-sm-2 mt-auto offset-sm-2 text-right">
+                                    <time class="post-date" datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+                                </span>
+                                {{ if isset .Params "tags" -}}
+                                <i class="fas fa-circle"></i>
+                                <span class=nowrap>
+                                    {{ range $index, $name := sort .Params.tags -}}
+                                        <span class="ph1">{{$name | markdownify}}</a>
+                                    {{- end}}
+                                </span>
+                                {{- end }}
+                            </footer>
+                        </div>
+                    </div>
+                </article>
+                {{ end }}
+            </div>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+        </div>
+    </div>
+</div>
+{{ end }}

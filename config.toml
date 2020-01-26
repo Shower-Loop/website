@@ -1,0 +1,67 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+theme = "chocolate"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xHTML = false
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+	weight = 1
+	title = "Home"
+  [[menu.main]]
+    identifier = "how-it-works"
+    name = "How It Works"
+    url = "/how-it-works/"
+	weight = 2
+	title = "How It Works"
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
+	weight = 3
+	title = "Research"
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+	weight = 4
+	title = "Posts"
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact Us"
+    url = "/contact-us/"
+	weight = 5
+	title = "Contact Us"
+  [[menu.main]]
+    identifier = "components"
+    name = "Components"
+    url = "/components/"
+	weight = 6
+	title = "Components"
+  [[menu.main]]
+    identifier = "make-it"
+    name = "Make It"
+    url = "/make-it/"
+	weight = 7
+	title = "Make It"
+[params]
+  facebookShareUrl = "https://www.facebook.com/sharer/sharer.php?u="
+  twitterShareUrl = "http://twitter.com/share?url="
+  redditShareUrl = "http://www.reddit.com/submit?url="
