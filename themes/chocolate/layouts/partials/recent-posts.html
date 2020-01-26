@@ -19,7 +19,7 @@
                             <p>{{.Summary}}</p>
                         </div>
                         <div class="mdl-card__actions mdl-card--border">
-                            <a class="mdl-button mdl-button--colored mdl-button mdl-js-button mdl-button--raised mdl-button--colored" tabindex="0" aria-label="Read more about {{.Title}}">
+                            <a href="{{ .URL | relURL }}" class="mdl-button mdl-button--colored mdl-button mdl-js-button mdl-button--raised mdl-button--colored" tabindex="0" aria-label="Read more about {{.Title}}">
                                 Read More
                             </a>
                         </div>

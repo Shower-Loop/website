@@ -29,7 +29,7 @@
                                 <i class="fas fa-circle"></i>
                                 <span class=nowrap>
                                     {{ range $index, $name := sort .Params.tags -}}
-                                        <span class="ph1">{{$name | markdownify}}</a>
+                                        <span class="ph1">{{$name | markdownify}}</span>
                                     {{- end}}
                                 </span>
                                 {{- end }}
