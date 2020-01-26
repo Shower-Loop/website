@@ -1,6 +1,7 @@
 baseURL = "https://shower-loop.github.io/"
 languageCode = "en-us"
 theme = "chocolate"
+publishDir = "public"
 
 [markup]
   [markup.goldmark]
