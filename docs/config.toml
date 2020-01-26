@@ -1,6 +1,7 @@
 baseURL = "https://showerloop.cc/"
 languageCode = "en-us"
 theme = "chocolate"
+publishDir = "docs"
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
